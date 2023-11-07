@@ -1,0 +1,9 @@
+@layer components {
+  button {
+    @apply text-white font-bold uppercase rounded px-5 py-3;
+  }
+
+  button:not(.no-border) {
+    @apply border-2 border-white;
+  }
+}

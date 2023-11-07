@@ -1,0 +1,20 @@
+@layer components {
+
+  .header {
+    @apply uppercase font-bold;
+  }
+  h1 {
+    @apply header text-4xl;
+  }
+  h2 {
+    @apply header text-3xl;
+  }
+  h3 {
+    @apply header text-2xl;
+  }
+
+  nav a {
+    @apply text-xl uppercase font-bold underline-offset-8;
+    @apply hover:underline;
+  }
+}

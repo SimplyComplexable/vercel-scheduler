@@ -1,0 +1,16 @@
+@layer base {
+  table {
+    @apply grid;
+  }
+  thead, tbody, tr {
+    @apply grid grid-cols-[subgrid] col-[1/-1];
+  }
+
+  thead {
+    @apply font-bold text-lg;
+  }
+  tbody {
+    @apply text-sm;
+  }
+
+}
